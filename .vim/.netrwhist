@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/caseyraethke/Projects/codegauge_gem/lib/codegauge'
+let g:netrw_dirhist_2='/Users/caseyraethke/Library/Developer/Xcode/DerivedData/Casper_Focus-aysykcteuqnffyganddnfjvdumfc/Build/Products/Debug-iphonesimulator/CasperFocusTests.xctest'
+let g:netrw_dirhist_3='/Users/caseyraethke/Projects/jamfbinary/jamf.xcodeproj/project.xcworkspace'
+let g:netrw_dirhist_4='/Users/caseyraethke/Projects/codegauge'
