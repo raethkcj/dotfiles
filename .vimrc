@@ -15,5 +15,6 @@ set hlsearch
 colors delek
 
 set clipboard=unnamed
+set mouse=a
 
 map <C-n> :NERDTreeToggle<CR>

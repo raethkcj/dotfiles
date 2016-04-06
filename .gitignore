@@ -2,3 +2,6 @@
 !.gitignore
 !.vimrc
 !.vim
+!.tmux.conf
+!.zshrc
+!.oh-my-zsh
