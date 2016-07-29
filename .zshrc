@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/caseyraethke/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -91,5 +91,9 @@ alias jamfdev="sudo ~/Projects/jamfbinary/DerivedData/jamf/Build/Products/Debug/
 alias jssupdate="sudo rm -rf /Library/JSS/Tomcat/webapps/ROOT; sudo mkdir /Library/JSS/Tomcat/webapps/ROOT; sudo unzip -d /Library/JSS/Tomcat/webapps/ROOT ~/Downloads/ROOT.war"
 alias mars="java -jar /Applications/Mars4_5.jar"
 alias redshift-toggle="pkill -USR1 redshift"
+alias pegasus="ssh deploy@pegasus.uwec.edu -p 16888"
+
 eval $(thefuck --alias)
 export PATH="/usr/local/sbin:$PATH"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
