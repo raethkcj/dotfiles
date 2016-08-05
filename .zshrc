@@ -84,11 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias restart-tomcat="sudo launchctl unload /Library/LaunchDaemons/com.jamfsoftware.tomcat.plist && sudo launchctl load /Library/LaunchDaemons/com.jamfsoftware.tomcat.plist"
-alias stop-tomcat="sudo launchctl unload /Library/LaunchDaemons/com.jamfsoftware.tomcat.plist"
-alias start-tomcat="sudo launchctl load /Library/LaunchDaemons/com.jamfsoftware.tomcat.plist"
-alias jamfdev="sudo ~/Projects/jamfbinary/DerivedData/jamf/Build/Products/Debug/jamf"
-alias jssupdate="sudo rm -rf /Library/JSS/Tomcat/webapps/ROOT; sudo mkdir /Library/JSS/Tomcat/webapps/ROOT; sudo unzip -d /Library/JSS/Tomcat/webapps/ROOT ~/Downloads/ROOT.war"
 alias mars="java -jar /Applications/Mars4_5.jar"
 alias redshift-toggle="pkill -USR1 redshift"
 alias pegasus="ssh deploy@pegasus.uwec.edu -p 16888"
