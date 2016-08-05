@@ -3,6 +3,7 @@
 !.gitignore_global
 !.vimrc
 !.vim
+.vim/.netrwhist
 !.tmux.conf
 !.zshrc
 !.oh-my-zsh
