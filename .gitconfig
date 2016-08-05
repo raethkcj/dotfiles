@@ -1,0 +1,7 @@
+[user]
+	email = raethkcj@uwec.edu
+	name = Casey Raethke
+[push]
+	default = simple
+[core]
+        excludesfile = ~/.gitignore_global
