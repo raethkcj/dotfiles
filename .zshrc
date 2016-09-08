@@ -93,5 +93,12 @@ alias pull-submodules="git pull --recurse-submodules"
 eval $(thefuck --alias)
 export PATH="/usr/local/sbin:$PATH"
 
+# Use vim as default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+export NVM_DIR="/home/casey/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
