@@ -24,7 +24,7 @@ set hlsearch
 so ~/raethkcj.vim
 
 " Use OS clipboard (must have vim compiled with clipboard)
-set clipboard=unnamed
+set clipboard=unnamedplus
 " Enable mouse scrolling and selecting in visual mode
 set mouse=a
 " Fix mouse support within tmux
