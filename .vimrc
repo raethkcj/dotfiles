@@ -20,7 +20,8 @@ set number
 " Highlight search results
 set hlsearch
 " Set colorscheme
-colors delek
+" colors delek
+so ~/raethkcj.vim
 
 " Use OS clipboard (must have vim compiled with clipboard)
 set clipboard=unnamed

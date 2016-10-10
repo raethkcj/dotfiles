@@ -5,6 +5,7 @@
 !.gitmodules
 !.vimrc
 !.vim
+!raethkcj.vim
 .vim/.netrwhist
 !.tmux.conf
 !.zshrc

@@ -5,4 +5,6 @@
 	default = simple
 [core]
 	excludesfile = ~/.gitignore_global
-	pager = less -x2
+	pager = less -x2 -r
+[color]
+	ui = true
