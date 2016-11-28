@@ -1,3 +1,13 @@
+let s:uname = system("uname -s")
+
+if s:uname == "Darwin\n"
+	set clipboard=unnamed
+endif
+
+if s:uname == "Linux\n"
+	set clipboard=unnamedplus
+endif
+
 " Load pathogen plugins in ~/.vim/bundle
 execute pathogen#infect()
 
@@ -23,8 +33,6 @@ set hlsearch
 " colors delek
 so ~/raethkcj.vim
 
-" Use OS clipboard (must have vim compiled with clipboard)
-set clipboard=unnamedplus
 " Enable mouse scrolling and selecting in visual mode
 set mouse=a
 " Fix mouse support within tmux
