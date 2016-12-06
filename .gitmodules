@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vim-pug"]
 	path = .vim/bundle/vim-pug
 	url = git://github.com/digitaltoad/vim-pug.git
+[submodule ".vim/bundle/vim-tmux"]
+	path = .vim/bundle/vim-tmux
+	url = git@github.com:tmux-plugins/vim-tmux.git
