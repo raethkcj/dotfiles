@@ -27,6 +27,8 @@ alias redshift-toggle="pkill -USR1 redshift"
 alias pegasus="ssh deploy@pegasus.uwec.edu -p 16888"
 alias init-submodules="git submodule update --init --recursive"
 alias pull-submodules="git pull --recurse-submodules"
+alias colortest='for i in {1..256}; do echo "\e[38;5;${i}m██████$( printf '%3d' $i )██████"; done'
+
 if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
 fi
