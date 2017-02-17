@@ -22,7 +22,6 @@ export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.rvm/bin:/Libr
 
 source $ZSH/oh-my-zsh.sh
 
-alias mars="java -jar /Applications/Mars4_5.jar"
 alias redshift-toggle="pkill -USR1 redshift"
 alias pegasus="ssh deploy@pegasus.uwec.edu -p 16888"
 alias init-submodules="git submodule update --init --recursive"
