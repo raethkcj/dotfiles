@@ -5,6 +5,7 @@
 !.gitmodules
 !.vimrc
 !.vim
+!.vim/colors
 !raethkcj.vim
 .vim/.netrwhist
 !.tmux.conf

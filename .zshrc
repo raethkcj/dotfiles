@@ -14,8 +14,12 @@ plugins=(git)
 # User configuration
 ZSH_PROMPT="%m"
 
-# Linux or Darwin
-platform=$(uname)
+# Linux, Darwin, or WSL
+if grep -q Microsoft /proc/version; then
+	platform="WSL"
+else
+	platform=$(uname)
+fi
 
 export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.rvm/bin:/Library/TeX/texbin"
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -30,8 +30,7 @@ set number
 " Highlight search results
 set hlsearch
 " Set colorscheme
-" colors delek
-so ~/raethkcj.vim
+colors raethkcj
 
 " Enable mouse scrolling and selecting in visual mode
 set mouse=a
