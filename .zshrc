@@ -37,7 +37,7 @@ if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
 fi
 
-eval $(thefuck --alias)
+type thefuck > /dev/null && eval $(thefuck --alias)
 export PATH="/usr/local/sbin:$PATH"
 
 # Use vim as default editor
