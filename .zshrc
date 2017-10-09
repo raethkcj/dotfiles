@@ -37,8 +37,13 @@ if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
 fi
 
+# Alias fuck if it is installed
 type thefuck > /dev/null && eval $(thefuck --alias)
+
 export PATH="/usr/local/sbin:$PATH"
+
+# Set 256 color terminal (for tmux)
+export TERM=xterm-256color
 
 # Use vim as default editor
 export VISUAL=vim
