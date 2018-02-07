@@ -32,6 +32,10 @@ set hlsearch
 " Set colorscheme
 colors raethkcj
 
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+			\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+			\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+
 " Enable mouse scrolling and selecting in visual mode
 set mouse=a
 " Fix mouse support within tmux
