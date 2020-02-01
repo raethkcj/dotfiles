@@ -30,3 +30,6 @@
 	path = .vim/bundle/vim-tmux
 	url = git@github.com:tmux-plugins/vim-tmux.git
 	branch = master
+[submodule "/home/casey/.vim/bundle/vim-jsx-pretty"]
+	path = /home/casey/.vim/bundle/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
