@@ -37,6 +37,11 @@ if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
 fi
 
+# enable copying to Windows clipboard via VcXsrv
+if [[ $platform == "WSL" ]]; then
+	export DISPLAY=localhost:0
+fi
+
 export PATH="/usr/local/sbin:$PATH"
 
 # Set 256 color terminal (for tmux)
