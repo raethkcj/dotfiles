@@ -24,6 +24,7 @@ set softtabstop=2
 set smartindent
 filetype indent on
 set backspace=indent,eol,start
+set nofixendofline
 
 " Turn on line numbers
 set number
