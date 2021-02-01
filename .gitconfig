@@ -8,3 +8,7 @@
 	pager = less -x2 -r
 [color]
 	ui = true
+[mergetool "vimdiff"]
+	cmd = vim -f -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\"
+[merge]
+	tool = vimdiff
