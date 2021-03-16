@@ -16,7 +16,7 @@ plugins=(git)
 ZSH_PROMPT="%m"
 
 # Linux, Darwin, or WSL
-if grep -q Microsoft /proc/version; then
+if grep -qi Microsoft /proc/version; then
 	platform="WSL"
 else
 	platform=$(uname)
@@ -39,7 +39,7 @@ fi
 
 # enable copying to Windows clipboard via VcXsrv
 if [[ $platform == "WSL" ]]; then
-	export DISPLAY=localhost:0
+	export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
 fi
 
 export PATH="/usr/local/sbin:$PATH"
