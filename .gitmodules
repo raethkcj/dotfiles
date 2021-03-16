@@ -38,3 +38,6 @@
 	path = .vim/bundle/detectindent
 	url = git@github.com:tcbbd/detectindent.git
 	branch = master
+[submodule ".vim/bundle/editorconfig-vim"]
+	path = .vim/bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
