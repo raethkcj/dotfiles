@@ -40,6 +40,10 @@ fi
 # enable copying to Windows clipboard via VcXsrv
 if [[ $platform == "WSL" ]]; then
 	export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+	# WSL hangs if the xsrv is not running, so set a short timeout and query the server
+	if ! timeout 0.25s xset q &>/dev/null; then
+		unset DISPLAY
+	fi
 fi
 
 export PATH="/usr/local/sbin:$PATH"
