@@ -5,6 +5,9 @@ export ZSH_CUSTOM=~/.oh-my-zsh-custom
 # ~/.oh-my-zsh/themes/
 ZSH_THEME="raethkcj"
 
+# ripgrep configuration file
+export RIPGREP_CONFIG_PATH=~/.rgconfig
+
 # _ and - will be interchangeable.
 HYPHEN_INSENSITIVE="true"
 
@@ -16,7 +19,7 @@ plugins=(git)
 ZSH_PROMPT="%m"
 
 # Linux, Darwin, or WSL
-if grep -qi Microsoft /proc/version; then
+if grep -qi microsoft /proc/version; then
 	platform="WSL"
 else
 	platform=$(uname)
@@ -63,3 +66,7 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
