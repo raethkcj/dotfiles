@@ -37,6 +37,9 @@ if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
 fi
 
+# GPG needs this manually set in some combination of WSL+tmux
+export GPG_TTY=$(tty)
+
 # enable copying to Windows clipboard via VcXsrv
 if [[ $platform == "WSL" ]]; then
 	export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0

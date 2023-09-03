@@ -12,3 +12,6 @@
 	cmd = vim -f -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\"
 [merge]
 	tool = vimdiff
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager-core
+	CredentialStore = gpg
