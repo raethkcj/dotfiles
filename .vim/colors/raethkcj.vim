@@ -16,6 +16,7 @@ let green = 108
 let white = 15
 let light_grey = 248
 let dark_grey = 235
+let red = 88
 
 "exec "hi CTagsMember -- no settings --
 "exec "hi CTagsGlobalConstant -- no settings --
@@ -23,7 +24,7 @@ let dark_grey = 235
 exec "hi Normal ctermfg=".white." ctermbg=NONE cterm=NONE"
 exec "hi IncSearch ctermfg=".dark_grey." ctermbg=".orange." cterm=NONE"
 exec "hi WildMenu ctermfg=NONE ctermbg=".light_grey." cterm=NONE"
-exec "hi SignColumn ctermfg=".dark_grey." ctermbg=60"." cterm=NONE"
+exec "hi SignColumn ctermfg=".dark_grey." ctermbg=NONE"." cterm=NONE"
 exec "hi SpecialComment ctermfg=".orange." ctermbg=NONE"." cterm=NONE"
 exec "hi Typedef ctermfg=".blue." ctermbg=NONE"." cterm=NONE"
 exec "hi Title ctermfg=189 ctermbg=NONE"." cterm=NONE"
@@ -79,7 +80,7 @@ exec "hi Type ctermfg=".blue." ctermbg=NONE"." cterm=NONE"
 exec "hi DiffChange ctermfg=NONE ctermbg=52"." cterm=NONE"
 exec "hi Cursor ctermfg=".dark_grey." ctermbg=".white ." cterm=NONE"
 exec "hi SpellLocal ctermfg=189 ctermbg=".dark_grey." cterm=underline"
-exec "hi Error ctermfg=".light_grey." ctermbg=88"." cterm=NONE"
+exec "hi Error ctermfg=".red." ctermbg=".dark_grey." cterm=NONE"
 exec "hi PMenu ctermfg=".dark_grey." ctermbg=".green." cterm=NONE"
 exec "hi SpecialKey ctermfg=66 ctermbg=NONE"." cterm=NONE"
 exec "hi Constant ctermfg=".green." ctermbg=NONE"." cterm=NONE"
@@ -96,3 +97,8 @@ exec "hi Underlined ctermfg=189 ctermbg=".dark_grey." cterm=underline"
 exec "hi DiffAdd ctermfg=NONE ctermbg=236"." cterm=NONE"
 exec "hi TabLine ctermfg=".dark_grey." ctermbg=".green." cterm=NONE"
 exec "hi cursorim ctermfg=".dark_grey." ctermbg=60"." cterm=NONE"
+exec "hi Warning ctermfg=".orange." ctermbg=".dark_grey." cterm=NONE"
+exec "hi link lspInlayHintsParameter Warning"
+exec "hi link LspWarningHighlight Warning"
+exec "hi LspWarningText ctermfg=".orange."ctermbg=NONE"
+exec "hi LspErrorText ctermfg=".red." ctermbg=NONE"
