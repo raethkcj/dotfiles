@@ -15,6 +15,7 @@ execute pathogen#infect()
 syntax on
 " Enable syntax highlighting in oh-my-zsh themes
 au BufNewFile,BufRead *.zsh-theme set filetype=zsh
+au BufNewFile,BufRead .pkgmeta set filetype=yaml
 " Enable autocompletion with ^X^O (^N, ^P to navigate)
 set omnifunc=syntaxcomplete#Complete
 
