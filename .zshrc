@@ -40,6 +40,12 @@ if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
 fi
 
+if [ ! -S ~/.ssh/ssh_auth_sock ]; then
+	eval $(ssh-agent) > /dev/null
+	ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
+fi
+export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
+
 # GPG needs this manually set in some combination of WSL+tmux
 export GPG_TTY=$(tty)
 
