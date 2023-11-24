@@ -58,6 +58,8 @@ if [[ $platform == "WSL" ]]; then
 	if ! timeout 0.25s xset q &>/dev/null; then
 		unset DISPLAY
 	fi
+
+	export BROWSER=explorer.exe
 fi
 
 export PATH="/usr/local/sbin:$PATH"
