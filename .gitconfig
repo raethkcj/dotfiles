@@ -3,6 +3,7 @@
 	name = Casey Raethke
 [push]
 	default = simple
+	autoSetupRemote = true
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = less -x2 -r
