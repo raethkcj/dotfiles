@@ -13,7 +13,7 @@ HYPHEN_INSENSITIVE="true"
 
 # Plugins can be found in ~/.oh-my-zsh/plugins
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git zsh-vi-mode)
 
 # User configuration
 ZSH_PROMPT="%m"
@@ -35,6 +35,7 @@ alias init-submodules="git submodule update --init --recursive"
 alias pull-submodules="git pull --recurse-submodules"
 alias colortest='for i in {1..256}; do echo "\e[38;5;${i}m██████$( printf '%3d' $i )██████"; done'
 alias mycolors='for i in 178 67 108 15 248 235; do echo "\e[38;5;${i}m██████$( printf '%3d' $i )██████"; done'
+alias ffmpeg="ffmpeg -hide_banner"
 
 if [[ $platform == "Linux" ]]; then
 	alias open="gvfs-open"
