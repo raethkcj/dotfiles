@@ -8,9 +8,6 @@ if s:uname == "Linux\n"
 	set clipboard=unnamedplus
 endif
 
-" Load pathogen plugins in ~/.vim/bundle
-execute pathogen#infect()
-
 " Turn on syntax highlighting
 syntax on
 " Enable syntax highlighting in oh-my-zsh themes
