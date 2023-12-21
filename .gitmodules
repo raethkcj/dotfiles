@@ -1,45 +1,29 @@
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
+[submodule ".vim/pack/packages/start/nerdtree"]
+	path = .vim/pack/packages/start/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
-	branch = master
-[submodule ".vim/bundle/vim-bundler"]
-	path = .vim/bundle/vim-bundler
-	url = git@github.com:tpope/vim-bundler.git
-	branch = master
-[submodule ".vim/bundle/vim-coffee-script"]
-	path = .vim/bundle/vim-coffee-script
-	url = git@github.com:kchmck/vim-coffee-script.git
-	branch = master
-[submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
-	url = git@github.com:tpope/vim-rails.git
 	branch = master
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = git@github.com:robbyrussell/oh-my-zsh.git
 	branch = master
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
+[submodule ".vim/pack/packages/start/vim-javascript"]
+	path = .vim/pack/packages/start/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
 	branch = master
-[submodule ".vim/bundle/vim-pug"]
-	path = .vim/bundle/vim-pug
-	url = git://github.com/digitaltoad/vim-pug.git
-	branch = master
-[submodule ".vim/bundle/vim-tmux"]
-	path = .vim/bundle/vim-tmux
+[submodule ".vim/pack/packages/start/vim-tmux"]
+	path = .vim/pack/packages/start/vim-tmux
 	url = git@github.com:tmux-plugins/vim-tmux.git
 	branch = master
-[submodule ".vim/bundle/vim-jsx-pretty"]
-	path = .vim/bundle/vim-jsx-pretty
+[submodule ".vim/pack/packages/start/vim-jsx-pretty"]
+	path = .vim/pack/packages/start/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
 	branch = master
-[submodule ".vim/bundle/detectindent"]
-	path = .vim/bundle/detectindent
+[submodule ".vim/pack/packages/start/detectindent"]
+	path = .vim/pack/packages/start/detectindent
 	url = git@github.com:tcbbd/detectindent.git
 	branch = master
-[submodule ".vim/bundle/editorconfig-vim"]
-	path = .vim/bundle/editorconfig-vim
+[submodule ".vim/pack/packages/opt/editorconfig-vim"]
+	path = .vim/pack/packages/opt/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim.git
 [submodule ".vim/pack/packages/start/vim-lsp"]
 	path = .vim/pack/packages/start/vim-lsp
