@@ -23,7 +23,7 @@
 	url = git@github.com:tcbbd/detectindent.git
 	branch = master
 [submodule ".vim/pack/packages/opt/editorconfig-vim"]
-	path = .vim/pack/packages/opt/editorconfig-vim
+	path = .vim/pack/packages/start/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim.git
 [submodule ".vim/pack/packages/start/vim-lsp"]
 	path = .vim/pack/packages/start/vim-lsp

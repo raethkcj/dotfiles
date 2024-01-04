@@ -8,15 +8,6 @@ if s:uname == "Linux\n"
 	set clipboard=unnamedplus
 endif
 
-" Don't load editorconfig in diff files
-function! s:enable_editorconfig()
-	if &ft != "diff"
-		:packadd! editorconfig-vim
-	endif
-endfunction
-
-au FileType * call s:enable_editorconfig()
-
 " Turn on syntax highlighting
 syntax on
 " Enable syntax highlighting in oh-my-zsh themes
