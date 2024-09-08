@@ -33,6 +33,8 @@ source $ZSH/oh-my-zsh.sh
 alias redshift-toggle="pkill -USR1 redshift"
 alias init-submodules="git submodule update --init --recursive"
 alias pull-submodules="git pull --recurse-submodules"
+# git add --patch (discard whitespace changes) https://stackoverflow.com/questions/6571643
+alias gapdw="git diff -w --no-color | git apply --cached --ignore-whitespace && git checkout -- . && git reset && git add -p"
 alias colortest='for i in {1..256}; do echo "\e[38;5;${i}m██████$( printf '%3d' $i )██████"; done'
 alias mycolors='for i in 178 67 108 15 248 235; do echo "\e[38;5;${i}m██████$( printf '%3d' $i )██████"; done'
 alias ffmpeg="ffmpeg -hide_banner"
