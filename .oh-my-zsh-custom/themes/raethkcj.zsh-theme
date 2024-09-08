@@ -5,7 +5,7 @@ PROMPT='%{$FG[067]%}%c$(git_prompt_info) %{$FG[067]%}$ %{$reset_color%}'
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[178]%} (%b%{$FG[189]%}"
 
 # Green checkmark or red x, for clean or dirty git status 
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%} ✔"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%} ✓"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%} ✗"
 
 # Closing yellow parenthese
