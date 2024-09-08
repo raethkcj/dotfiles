@@ -6,7 +6,9 @@
 	autoSetupRemote = true
 [core]
 	excludesfile = ~/.gitignore_global
-	pager = less -x2 -r
+	pager = diff-highlight | less -x1,4
+[interactive]
+	diffFilter = diff-highlight
 [color]
 	ui = true
 [mergetool "vimdiff"]
@@ -15,3 +17,5 @@
 	tool = vimdiff
 [difftool "vimdiff"]
 	cmd = vimdiff \"$LOCAL\" \"$REMOTE\"
+[color "diff"]
+	meta = 178
