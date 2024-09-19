@@ -30,6 +30,7 @@ export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/.rvm/bin:/Libr
 
 source $ZSH/oh-my-zsh.sh
 
+alias vim="vimx"
 alias redshift-toggle="pkill -USR1 redshift"
 alias init-submodules="git submodule update --init --recursive"
 alias pull-submodules="git pull --recurse-submodules"
