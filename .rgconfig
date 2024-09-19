@@ -1,0 +1,9 @@
+--colors=path:fg:108
+--colors=line:fg:67
+--colors=column:fg:248
+--colors=match:bg:178
+--colors=match:fg:235
+
+--smart-case
+
+--no-ignore-exclude
